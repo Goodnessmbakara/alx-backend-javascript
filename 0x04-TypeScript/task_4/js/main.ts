@@ -6,6 +6,7 @@ export const cTeacher: Subjects.TeacherInterface = {
   lastName: "Professor",
   experienceTeachingC: 10,
 };
+
 cpp.setTeacher(cTeacher);
 console.log("C++")
 console.log(cpp.getRequirements())
